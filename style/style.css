@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image:  linear-gradient( 310deg,
+          hsl(93deg 94% 55%) 0%,
+          hsl(94deg 83% 56%) 8%,
+          hsl(94deg 73% 56%) 17%,
+          hsl(94deg 63% 55%) 25%,
+          hsl(94deg 53% 54%) 33%,
+          hsl(94deg 45% 53%) 42%,
+          hsl(93deg 37% 52%) 50%,
+          hsl(93deg 29% 51%) 58%,
+          hsl(92deg 23% 49%) 67%,
+          hsl(91deg 17% 48%) 75%,
+          hsl(91deg 12% 46%) 83%,
+          hsl(90deg 6% 45%) 92%,
+          hsl(0deg 0% 43%) 100%
+        );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+
+.input-group label {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #0322d3e7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #008ee0;
+    transition: all 1s ease-out;
+}
+::placeholder{
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.error-message, .password-error{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
